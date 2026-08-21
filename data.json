@@ -1,0 +1,46 @@
+{
+  "categorias": [
+    {"id": "meta", "nome": "Meta Ads"},
+    {"id": "google", "nome": "Google Ads"},
+    {"id": "tiktok", "nome": "TikTok Ads"},
+    {"id": "outros", "nome": "Outros Serviços"}
+  ],
+  "produtos": [
+    {
+      "id": "p1",
+      "categoria": "meta",
+      "nome": "BM Verificada 🇧🇷",
+      "descricao": "Business Manager brasileira, aquecida e pronta para rodar tráfego agressivo sem restrições iniciais.",
+      "preco": "R$ 350,00",
+      "atributos": ["Histórico de +3 meses", "Limite alto", "Reposição 24h"],
+      "destaque": true
+    },
+    {
+      "id": "p2",
+      "categoria": "meta",
+      "nome": "Perfil de Facebook",
+      "descricao": "Perfil restabelecido, verificado por documento, ideal para matriz de operação.",
+      "preco": "R$ 150,00",
+      "atributos": ["Verificado", "Amigos reais", "Autenticação 2FA"],
+      "destaque": false
+    },
+    {
+      "id": "p3",
+      "categoria": "google",
+      "nome": "Conta Google Ads (Antiga)",
+      "descricao": "Conta com mais de 1 ano de histórico e gastos prévios, extremamente resistente a bloqueios.",
+      "preco": "R$ 500,00",
+      "atributos": ["Histórico forte", "Pronta para Black", "Sem saldo devedor"],
+      "destaque": true
+    },
+    {
+      "id": "p4",
+      "categoria": "tiktok",
+      "nome": "Conta TikTok Ads (Agência)",
+      "descricao": "Conta padrão agência para você escalar no TikTok com tranquilidade.",
+      "preco": "R$ 400,00",
+      "atributos": ["Sem impostos extras", "Aprovação rápida", "Suporte VIP"],
+      "destaque": false
+    }
+  ]
+}
