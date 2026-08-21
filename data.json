@@ -1,46 +1,135 @@
 {
   "categorias": [
-    {"id": "meta", "nome": "Meta Ads"},
-    {"id": "google", "nome": "Google Ads"},
-    {"id": "tiktok", "nome": "TikTok Ads"},
-    {"id": "outros", "nome": "Outros Serviços"}
+    {"id": "bms", "nome": "BMs (Padrão)"},
+    {"id": "disparos", "nome": "BMs para Disparos"},
+    {"id": "bforge", "nome": "BM BFORGE 🦅 (Premium)"}
   ],
   "produtos": [
     {
-      "id": "p1",
-      "categoria": "meta",
-      "nome": "BM Verificada 🇧🇷",
-      "descricao": "Business Manager brasileira, aquecida e pronta para rodar tráfego agressivo sem restrições iniciais.",
-      "preco": "R$ 350,00",
-      "atributos": ["Histórico de +3 meses", "Limite alto", "Reposição 24h"],
-      "destaque": true
-    },
-    {
-      "id": "p2",
-      "categoria": "meta",
-      "nome": "Perfil de Facebook",
-      "descricao": "Perfil restabelecido, verificado por documento, ideal para matriz de operação.",
-      "preco": "R$ 150,00",
-      "atributos": ["Verificado", "Amigos reais", "Autenticação 2FA"],
+      "id": "bm_250_25_26",
+      "categoria": "bms",
+      "nome": "BM1 250 (2025 - 2026)",
+      "descricao": "Estrutura padrão com limite inicial e liberação de novas contas após pagamento.",
+      "preco": "R$ 140,00",
+      "atributos": ["Limite inicial: R$ 250", "+2 contas de R$ 250", "Acesso completo garantido"],
       "destaque": false
     },
     {
-      "id": "p3",
-      "categoria": "google",
-      "nome": "Conta Google Ads (Antiga)",
-      "descricao": "Conta com mais de 1 ano de histórico e gastos prévios, extremamente resistente a bloqueios.",
-      "preco": "R$ 500,00",
-      "atributos": ["Histórico forte", "Pronta para Black", "Sem saldo devedor"],
+      "id": "bm_250_21_23",
+      "categoria": "bms",
+      "nome": "BM 250 (2021 - 2023)",
+      "descricao": "Conta mais antiga com limite inicial e liberação de contas.",
+      "preco": "R$ 210,00",
+      "atributos": ["Criada entre 2021-2023", "Limite inicial: R$ 250", "+2 contas de R$ 250", "Acesso completo garantido"],
+      "destaque": false
+    },
+    {
+      "id": "bm_250_cnpj",
+      "categoria": "bms",
+      "nome": "BM 250 Verificada CNPJ",
+      "descricao": "Business Manager com verificação empresarial.",
+      "preco": "R$ 310,00",
+      "atributos": ["Verificada via CNPJ", "Limite inicial: R$ 250", "+2 contas de R$ 250", "Acesso completo garantido"],
       "destaque": true
     },
     {
-      "id": "p4",
-      "categoria": "tiktok",
-      "nome": "Conta TikTok Ads (Agência)",
-      "descricao": "Conta padrão agência para você escalar no TikTok com tranquilidade.",
-      "preco": "R$ 400,00",
-      "atributos": ["Sem impostos extras", "Aprovação rápida", "Suporte VIP"],
+      "id": "bm1_1300_25_26",
+      "categoria": "bms",
+      "nome": "BM1 1300 (2025 - 2026)",
+      "descricao": "Alto limite inicial para escalar campanhas rapidamente.",
+      "preco": "R$ 450,00",
+      "atributos": ["Limite inicial: R$ 1.440,00", "+4 contas de R$ 1.300", "Acesso completo garantido"],
+      "destaque": true
+    },
+    {
+      "id": "bm1_verificada_ilimitada",
+      "categoria": "bms",
+      "nome": "BM1 Verificada Ilimitada",
+      "descricao": "Torna-se ilimitada após os primeiros pagamentos.",
+      "preco": "R$ 450,00",
+      "atributos": ["Limite inicial: R$ 300", "Torna-se ILIMITADA", "+4 contas de R$ 300", "Acesso completo garantido"],
+      "destaque": true
+    },
+    {
+      "id": "bm1_1300_21_23",
+      "categoria": "bms",
+      "nome": "BM1 1300 (2021 - 2023)",
+      "descricao": "BM antiga (alta confiança) com alto limite inicial.",
+      "preco": "R$ 950,00",
+      "atributos": ["Criada entre 2021-2023", "Limite inicial: R$ 1.300", "+4 contas de R$ 1.300", "Acesso completo garantido"],
       "destaque": false
+    },
+    {
+      "id": "bm_2k_sem_template",
+      "categoria": "disparos",
+      "nome": "BM 2K DISPAROS",
+      "descricao": "BM configurada para disparos via WhatsApp.",
+      "preco": "R$ 750,00",
+      "atributos": ["2.000 disparos/dia", "Sem template aprovado", "Pronta entrega (24h)"],
+      "destaque": false
+    },
+    {
+      "id": "bm_2k_com_template",
+      "categoria": "disparos",
+      "nome": "BM 2K DISPAROS (Aprovado)",
+      "descricao": "BM para disparos com template já aprovado e pronta para uso.",
+      "preco": "R$ 850,00",
+      "atributos": ["2.000 disparos/dia", "Template aprovado", "Nome de exibição Padrão", "Pronta entrega (24h)"],
+      "destaque": true
+    },
+    {
+      "id": "bm_10k_disparos",
+      "categoria": "disparos",
+      "nome": "BM 10K DISPAROS",
+      "descricao": "Infraestrutura massiva para alto volume diário.",
+      "preco": "R$ 4.990,00",
+      "atributos": ["10.000 disparos/dia", "Número BR conectado", "Integração ManyChat/DataCrazy", "Sob encomenda"],
+      "destaque": true
+    },
+    {
+      "id": "bforge_660",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 660 (2025)",
+      "descricao": "Ativo premium BFORGE com histórico de gastos.",
+      "preco": "R$ 997,00",
+      "atributos": ["Gastos Totais: R$ 660,00", "3 Contas de Anúncios", "CA 02 e 03 trocam de moeda", "Adiciona fundos via cartão"],
+      "destaque": false
+    },
+    {
+      "id": "bforge_618k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 6.18K (2025)",
+      "descricao": "Ativo com alto histórico de gastos, altamente resistente.",
+      "preco": "R$ 1.197,00",
+      "atributos": ["Gastos Totais: R$ 6.180,00", "Ciclo: R$ 429,00", "3 Contas de Anúncios", "Permitem troca de moeda"],
+      "destaque": true
+    },
+    {
+      "id": "bforge_153k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 15.3K (2023)",
+      "descricao": "Excelente histórico de gastos, estrutura pronta para operação agressiva.",
+      "preco": "R$ 1.300,00",
+      "atributos": ["Gastos Totais: R$ 15.352,39", "Rodou White", "3 Contas Ativas (1 pré-paga)", "Criada em Outubro/2023"],
+      "destaque": true
+    },
+    {
+      "id": "bforge_58k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 5.8K (2026)",
+      "descricao": "Conta de alto padrão com 5 contas ativas.",
+      "preco": "R$ 1.800,00",
+      "atributos": ["Gastos Totais: R$ 5.845,03", "Rodou White & Verificada", "5 Contas Ativas", "Campanhas ativas sem rejeição"],
+      "destaque": false
+    },
+    {
+      "id": "bforge_933k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 9.33K (2022)",
+      "descricao": "Ativo extremamente forte e antigo.",
+      "preco": "R$ 3.010,00",
+      "atributos": ["Criada em 2022", "Gastos Totais: R$ 9.330,00", "Ciclo alto: R$ 1.620,00", "5 Contas de Anúncios"],
+      "destaque": true
     }
   ]
 }
