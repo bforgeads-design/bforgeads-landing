@@ -89,15 +89,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             card.innerHTML = `
                 <div class="product-header">
-                    ${produto.destaque ? '<span class="card-badge neon-badge">Mais Vendido</span>' : ''}
-                    <h3 class="category-title" style="font-size: 1.3rem; margin-top: ${produto.destaque ? '20px' : '0'}">${produto.nome}</h3>
+                    ${produto.destaque ? '<span class="card-badge neon-badge">Ouro BFORGE</span>' : ''}
+                    <div style="display: flex; align-items: center; gap: 12px; margin-top: ${produto.destaque ? '24px' : '0'}">
+                        ${produto.icone ? `<div class="product-icon-wrapper"><i class="${produto.icone}"></i></div>` : ''}
+                        <h3 class="category-title" style="font-size: 1.4rem; margin-bottom: 0;">${produto.nome}</h3>
+                    </div>
+                    ${produto.tag ? `<span class="product-tag">${produto.tag}</span>` : ''}
                     <div class="product-price">${produto.preco}</div>
                 </div>
-                <p class="category-desc" style="margin-bottom: 10px;">${produto.descricao}</p>
+                <p class="category-desc" style="margin-bottom: 10px; flex-grow: 1;">${produto.descricao}</p>
                 ${atributosHtml}
                 <div style="margin-top: auto;">
-                    <a href="https://wa.me/5551980907413?text=${wppText}" target="_blank" class="btn btn-primary" style="width: 100%;">
-                        Comprar via WhatsApp <i class="fab fa-whatsapp"></i>
+                    <a href="https://wa.me/5551980907413?text=${wppText}" target="_blank" class="btn btn-primary" style="width: 100%; font-size: 1.05rem; padding: 16px;">
+                        Quero essa Estrutura <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
             `;
