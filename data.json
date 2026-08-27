@@ -2,18 +2,87 @@
   "categorias": [
     {"id": "bms", "nome": "BMs (Padrão)"},
     {"id": "disparos", "nome": "BMs para Disparos"},
-    {"id": "bforge", "nome": "BM BFORGE 🦅"}
+    {"id": "bforge", "nome": "BM BFORGE 🦅"},
+    {"id": "perfis", "nome": "Perfis e Páginas"},
+    {"id": "google", "nome": "Google Ads"},
+    {"id": "tiktok", "nome": "TikTok Ads"}
   ],
   "produtos": [
+    {
+      "id": "perfil_antigo",
+      "categoria": "perfis",
+      "nome": "Perfil Antigo BR",
+      "icone": "fa-solid fa-user",
+      "tag": "Média 6 Meses",
+      "descricao": "Perfil pronto para anunciar com anúncios no WhatsApp pela conta pessoal.",
+      "preco": "R$ 150,00",
+      "atributos": ["Pronto para anunciar", "Acesso Completo", "Garantia e Suporte"],
+      "destaque": false
+    },
+    {
+      "id": "perfil_reestabelecido",
+      "categoria": "perfis",
+      "nome": "Perfil Reestabelecido",
+      "icone": "fa-solid fa-user-shield",
+      "tag": "BR",
+      "descricao": "Perfis brasileiros reestabelecidos e prontos para rodar.",
+      "preco": "R$ 170,00",
+      "atributos": ["Documento Real BR", "Acesso Completo", "Garantia e Suporte"],
+      "destaque": false
+    },
+    {
+      "id": "perfil_real_br",
+      "categoria": "perfis",
+      "nome": "Perfil Real BR",
+      "icone": "fa-solid fa-user-check",
+      "tag": "🇧🇷",
+      "descricao": "Perfis antigos reais que não pedem código no WhatsApp. Acompanham documento.",
+      "preco": "R$ 210,00",
+      "atributos": ["Acompanham documento real", "Criam páginas", "2FA ativo"],
+      "destaque": true
+    },
+    {
+      "id": "perfil_verificado_premium",
+      "categoria": "perfis",
+      "nome": "Perfil Real Verificado",
+      "icone": "fa-solid fa-circle-check",
+      "tag": "Selo Verde (2018-2022)",
+      "descricao": "O melhor perfil BR do mercado. Real, antigo, com documento e qualidade premium.",
+      "preco": "R$ 240,00",
+      "atributos": ["Selo de Verificação Verde", "Qualidade Premium ⭐", "Documento Real BR"],
+      "destaque": true
+    },
+    {
+      "id": "perfil_americano",
+      "categoria": "perfis",
+      "nome": "Perfil Americano",
+      "icone": "fa-solid fa-flag-usa",
+      "tag": "🇺🇸 Gringo",
+      "descricao": "Perfil internacional para maior resistência no meta.",
+      "preco": "R$ 190,00",
+      "atributos": ["Perfis Gringos", "Prontos para Anunciar", "Acesso Completo"],
+      "destaque": false
+    },
+    {
+      "id": "pagina_antiga",
+      "categoria": "perfis",
+      "nome": "Página Facebook Antiga",
+      "icone": "fa-solid fa-file-lines",
+      "tag": "+1 Ano",
+      "descricao": "Página resistente para vincular nas BMs e rodar anúncios com autoridade.",
+      "preco": "R$ 150,00",
+      "atributos": ["+1 ano de criação", "+ Seguidores", "Permite trocar o nome"],
+      "destaque": false
+    },
     {
       "id": "bm_250_25_26",
       "categoria": "bms",
       "nome": "BM1 250",
       "icone": "fa-solid fa-shield-halved",
       "tag": "2025 - 2026",
-      "descricao": "Estrutura padrão com limite inicial e liberação de novas contas após pagamento.",
+      "descricao": "Estrutura padrão com limite inicial de 250.",
       "preco": "R$ 140,00",
-      "atributos": ["Limite inicial: R$ 250", "+2 contas de R$ 250", "Acesso completo garantido"],
+      "atributos": ["Limite inicial: R$ 250", "+2 contas pós pagamento", "Acesso completo garantido"],
       "destaque": false
     },
     {
@@ -22,9 +91,9 @@
       "nome": "BM 250",
       "icone": "fa-solid fa-clock",
       "tag": "Antiga (2021-2023)",
-      "descricao": "Conta mais antiga com limite inicial e liberação de contas.",
+      "descricao": "Conta mais antiga com maior retenção de algoritmo.",
       "preco": "R$ 210,00",
-      "atributos": ["Alta Confiança", "Limite inicial: R$ 250", "+2 contas de R$ 250", "Acesso completo garantido"],
+      "atributos": ["Limite inicial: R$ 250", "+2 contas pós pagamento", "Acesso completo garantido"],
       "destaque": false
     },
     {
@@ -33,9 +102,9 @@
       "nome": "BM1 250 🇺🇸",
       "icone": "fa-solid fa-globe-americas",
       "tag": "Americana",
-      "descricao": "Business Manager com perfil americano para maior alcance.",
+      "descricao": "Business Manager com perfil americano.",
       "preco": "R$ 210,00",
-      "atributos": ["Perfil 100% Americano", "Limite inicial: $250", "+2 contas de $250", "Acesso completo garantido"],
+      "atributos": ["Limite inicial: $250", "+2 contas de $250", "Acesso completo garantido"],
       "destaque": false
     },
     {
@@ -44,9 +113,9 @@
       "nome": "BM 250",
       "icone": "fa-solid fa-building-circle-check",
       "tag": "Verificada CNPJ",
-      "descricao": "Business Manager blindada com verificação empresarial oficial.",
+      "descricao": "Business Manager verificada com CNPJ oficial.",
       "preco": "R$ 310,00",
-      "atributos": ["Verificação Oficial CNPJ", "Limite inicial: R$ 250", "+2 contas de R$ 250", "Menos bloqueios"],
+      "atributos": ["Verificação Oficial CNPJ", "Limite inicial: R$ 250", "+2 contas de R$ 250"],
       "destaque": true
     },
     {
@@ -56,8 +125,8 @@
       "icone": "fa-solid fa-rocket",
       "tag": "2025 - 2026",
       "descricao": "Alto limite inicial para escalar campanhas no primeiro dia.",
-      "preco": "R$ 450,00",
-      "atributos": ["Limite Alto: R$ 1.440,00", "+4 contas de R$ 1.300", "Acesso completo garantido", "Ideal para escala"],
+      "preco": "R$ 410,00",
+      "atributos": ["Limite Inicial: R$ 1.440,00", "+4 contas de R$ 1.300", "Acesso completo garantido"],
       "destaque": true
     },
     {
@@ -66,9 +135,9 @@
       "nome": "BM1 Verificada",
       "icone": "fa-solid fa-infinity",
       "tag": "Ilimitada",
-      "descricao": "Torna-se ilimitada após os primeiros pagamentos. Perfeita para grandes orçamentos.",
-      "preco": "R$ 450,00",
-      "atributos": ["Limite inicial: R$ 300", "Torna-se ILIMITADA 🔥", "+4 contas de R$ 300", "Escala infinita"],
+      "descricao": "Torna-se ilimitada após os primeiros pagamentos.",
+      "preco": "R$ 410,00",
+      "atributos": ["Limite inicial: R$ 300", "Torna-se ILIMITADA 🔥", "+4 contas de R$ 300"],
       "destaque": true
     },
     {
@@ -77,9 +146,9 @@
       "nome": "BM1 Verificada 🇺🇸",
       "icone": "fa-solid fa-earth-americas",
       "tag": "Ilimitada Americana",
-      "descricao": "A força do perfil americano unida ao limite ilimitado.",
-      "preco": "R$ 450,00",
-      "atributos": ["Perfil 100% Americano", "Limite inicial: $300", "Torna-se ILIMITADA 🔥", "+4 contas de $300"],
+      "descricao": "Perfil americano com evolução para limite infinito.",
+      "preco": "R$ 410,00",
+      "atributos": ["Limite inicial: $300", "Torna-se ILIMITADA 🔥", "+4 contas de $300"],
       "destaque": true
     },
     {
@@ -88,9 +157,9 @@
       "nome": "BM1 1300",
       "icone": "fa-solid fa-gem",
       "tag": "Antiga (2021-2023)",
-      "descricao": "BM relíquia, alta confiança pelo algoritmo do Meta.",
-      "preco": "R$ 950,00",
-      "atributos": ["Criada entre 2021-2023", "Limite Altíssimo: R$ 1.300", "+4 contas de R$ 1.300", "Máxima resistência"],
+      "descricao": "BM relíquia de alta resistência.",
+      "preco": "R$ 820,00",
+      "atributos": ["Limite Altíssimo: R$ 1.300", "+4 contas de R$ 1.300", "Acesso completo garantido"],
       "destaque": false
     },
     {
@@ -98,9 +167,9 @@
       "categoria": "disparos",
       "nome": "BM 2K DISPAROS",
       "icone": "fa-brands fa-whatsapp",
-      "tag": "Padrão",
-      "descricao": "Infraestrutura configurada exclusivamente para disparos massivos via WhatsApp.",
-      "preco": "R$ 750,00",
+      "tag": "Sem Template",
+      "descricao": "Para disparos massivos via WhatsApp.",
+      "preco": "R$ 650,00",
       "atributos": ["🚀 2.000 disparos/dia", "Sem template aprovado", "Pronta entrega (24h)"],
       "destaque": false
     },
@@ -110,9 +179,20 @@
       "nome": "BM 2K DISPAROS",
       "icone": "fa-brands fa-whatsapp",
       "tag": "Aprovado",
-      "descricao": "BM para disparos com template já aprovado e pronta para plugar na operação.",
-      "preco": "R$ 850,00",
-      "atributos": ["🚀 2.000 disparos/dia", "✅ Template Aprovado", "Nome de exibição Padrão", "Pronta entrega (24h)"],
+      "descricao": "BM para disparos com template já aprovado.",
+      "preco": "R$ 750,00",
+      "atributos": ["🚀 2.000 disparos/dia", "✅ Template Aprovado", "Pronta entrega (24h)"],
+      "destaque": true
+    },
+    {
+      "id": "bm_api_wpp",
+      "categoria": "disparos",
+      "nome": "BM BFORGE API",
+      "icone": "fa-solid fa-code-branch",
+      "tag": "API WhatsApp",
+      "descricao": "API oficial do WhatsApp liberada para automações massivas.",
+      "preco": "R$ 400,00",
+      "atributos": ["250 disparos/número", "Integra Manychat, Zenvia, Blip", "Cria até 5 contas"],
       "destaque": true
     },
     {
@@ -121,20 +201,42 @@
       "nome": "BM 10K DISPAROS",
       "icone": "fa-solid fa-server",
       "tag": "Infra Massiva",
-      "descricao": "A solução definitiva para grandes lançamentos e mega operações de WhatsApp.",
-      "preco": "R$ 4.990,00",
-      "atributos": ["🔥 10.000 disparos/dia", "Número BR conectado", "Integração ManyChat/DataCrazy", "Sob encomenda"],
+      "descricao": "Solução definitiva para alto volume.",
+      "preco": "R$ 4.300,00",
+      "atributos": ["🔥 10.000 disparos/dia", "Número BR conectado", "Sob encomenda"],
+      "destaque": false
+    },
+    {
+      "id": "bm_100k_disparos",
+      "categoria": "disparos",
+      "nome": "BM 100K DISPAROS",
+      "icone": "fa-solid fa-network-wired",
+      "tag": "Enterprise",
+      "descricao": "Escala global em disparos de WhatsApp.",
+      "preco": "R$ 23.000,00",
+      "atributos": ["🔥 100.000 disparos/dia", "Estrutura volume contínuo", "Sob encomenda (Max 7 dias)"],
       "destaque": true
+    },
+    {
+      "id": "bforge_sparta",
+      "categoria": "bforge",
+      "nome": "BM SPARTA (2018)",
+      "icone": "fa-solid fa-fire",
+      "tag": "Sem Gastos",
+      "descricao": "Relíquia criada em março de 2018 com 3 contas ativas prontas.",
+      "preco": "R$ 450,00",
+      "atributos": ["Criada em 2018", "3 Contas Ativas", "Rodou White"],
+      "destaque": false
     },
     {
       "id": "bforge_660",
       "categoria": "bforge",
       "nome": "BM BFORGE 660",
       "icone": "fa-solid fa-fire",
-      "tag": "Criada em 2025",
-      "descricao": "Ativo premium com selo BFORGE e histórico de gastos validados.",
-      "preco": "R$ 997,00",
-      "atributos": ["Gastos Totais: R$ 660,00", "3 Contas de Anúncios", "Permitem troca de moeda", "Pronta para Black"],
+      "tag": "2025",
+      "descricao": "Ativo com histórico validado.",
+      "preco": "R$ 947,00",
+      "atributos": ["Gastos Totais: R$ 660,00", "3 Contas de Anúncios", "Permitem troca de moeda"],
       "destaque": false
     },
     {
@@ -142,11 +244,11 @@
       "categoria": "bforge",
       "nome": "BM BFORGE 6.18K",
       "icone": "fa-solid fa-fire-flame-curved",
-      "tag": "Criada em 2025",
-      "descricao": "Ativo extremamente forte com mais de R$ 6.000 rodados.",
-      "preco": "R$ 1.197,00",
-      "atributos": ["Gastos Totais: R$ 6.180,00", "Ciclo Alto: R$ 429,00", "3 Contas de Anúncios", "Permitem troca de moeda"],
-      "destaque": true
+      "tag": "2025",
+      "descricao": "Ativo forte com mais de R$ 6.000 rodados.",
+      "preco": "R$ 1.500,00",
+      "atributos": ["Gastos Totais: R$ 6.180,00", "Ciclo Alto: R$ 429,00", "3 Contas de Anúncios"],
+      "destaque": false
     },
     {
       "id": "bforge_153k",
@@ -154,10 +256,32 @@
       "nome": "BM BFORGE 15.3K",
       "icone": "fa-solid fa-trophy",
       "tag": "Milli Sapatilhas (2023)",
-      "descricao": "Estrutura relíquia que já rodou White pesado. Perfeita para quem não quer surpresas.",
-      "preco": "R$ 1.300,00",
-      "atributos": ["Gastos Totais: R$ 15.352,39", "🛡️ Histórico Limpo (White)", "3 Contas Ativas", "Criada em Outubro/2023"],
+      "descricao": "Estrutura relíquia que já rodou White.",
+      "preco": "R$ 1.400,00",
+      "atributos": ["Gastos Totais: R$ 15.352,39", "🛡️ Histórico Limpo (White)", "3 Contas Ativas"],
       "destaque": true
+    },
+    {
+      "id": "bforge_5k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 5K",
+      "icone": "fa-solid fa-crown",
+      "tag": "2023",
+      "descricao": "Conta padrão internacional (Europe/Madrid) com troca de moeda.",
+      "preco": "R$ 1.300,00",
+      "atributos": ["Gastos Totais: R$ 5.020,00", "3 Contas Ativas", "CA 01/02 Altera Moeda"],
+      "destaque": false
+    },
+    {
+      "id": "bforge_784",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 784",
+      "icone": "fa-solid fa-dragon",
+      "tag": "2019",
+      "descricao": "Relíquia pura de 2019 com saldo positivo.",
+      "preco": "R$ 1.500,00",
+      "atributos": ["Criada em 2019", "Saldo: R$ 606,60", "3 Contas Ativas"],
+      "destaque": false
     },
     {
       "id": "bforge_58k",
@@ -165,20 +289,130 @@
       "nome": "BM BFORGE 5.8K",
       "icone": "fa-solid fa-crown",
       "tag": "Verificada (2026)",
-      "descricao": "Conta de alto padrão militar, verificada e com campanhas ativas rodando.",
-      "preco": "R$ 1.800,00",
-      "atributos": ["Gastos Totais: R$ 5.845,03", "✅ Verificada", "5 Contas Ativas no total", "Zero rejeições no gerenciador"],
+      "descricao": "Conta de alto padrão militar.",
+      "preco": "R$ 1.900,00",
+      "atributos": ["Gastos Totais: R$ 5.845,03", "✅ Verificada", "5 Contas Ativas"],
       "destaque": false
+    },
+    {
+      "id": "bforge_28k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 2.8K",
+      "icone": "fa-solid fa-star",
+      "tag": "2020",
+      "descricao": "Ativo poderoso do ano de 2020.",
+      "preco": "R$ 2.000,00",
+      "atributos": ["Gastos Totais: R$ 2.883,91", "Rodou White", "5 Contas Ativas (4 alteram moeda)"],
+      "destaque": true
     },
     {
       "id": "bforge_933k",
       "categoria": "bforge",
       "nome": "BM BFORGE 9.33K",
       "icone": "fa-solid fa-dragon",
-      "tag": "Relíquia (2022)",
-      "descricao": "O ativo definitivo. Conta antiquíssima com um volume absurdo de confiança.",
-      "preco": "R$ 3.010,00",
-      "atributos": ["Criada em 2022", "Gastos Totais: R$ 9.330,00", "Ciclo Gigante: R$ 1.620,00", "5 Contas de Anúncios Ativas"],
+      "tag": "2022",
+      "descricao": "Conta de alto volume de ciclo.",
+      "preco": "R$ 2.800,00",
+      "atributos": ["Gastos Totais: R$ 9.330,00", "Ciclo Gigante: R$ 1.620,00", "5 Contas Ativas"],
+      "destaque": false
+    },
+    {
+      "id": "bforge_256k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 25.6K",
+      "icone": "fa-solid fa-gem",
+      "tag": "Verificada (2018)",
+      "descricao": "Super Relíquia blindada.",
+      "preco": "R$ 4.100,00",
+      "atributos": ["Gastos Totais: R$ 25.620,68", "✅ Verificada e White", "5 Contas Ativas"],
+      "destaque": true
+    },
+    {
+      "id": "bforge_134k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 134K",
+      "icone": "fa-solid fa-diamond",
+      "tag": "ILIMITADAS (2020)",
+      "descricao": "Conta premium com limites de extensão ilimitados.",
+      "preco": "R$ 7.800,00",
+      "atributos": ["Gastos: R$ 134.574,35", "Ciclo: R$ 5.712,00", "5 Contas ILIMITADAS"],
+      "destaque": true
+    },
+    {
+      "id": "bforge_232k",
+      "categoria": "bforge",
+      "nome": "BM BFORGE 232K",
+      "icone": "fa-solid fa-crown",
+      "tag": "ILIMITADAS (2021)",
+      "descricao": "O supra-sumo dos ativos. Pronta para escalar infinito.",
+      "preco": "R$ 7.100,00",
+      "atributos": ["Gastos: R$ 232.412,85", "6 Contas ILIMITADAS", "✅ Verificada e White"],
+      "destaque": true
+    },
+    {
+      "id": "google_verificado",
+      "categoria": "google",
+      "nome": "Google Ads Verificado",
+      "icone": "fa-brands fa-google",
+      "tag": "2025",
+      "descricao": "Conta zerada, porém verificada e pronta para rodar conversão.",
+      "preco": "R$ 180,00",
+      "atributos": ["Verificado Anunciante", "Pronto para Conversão", "Pagamento Manual"],
+      "destaque": false
+    },
+    {
+      "id": "google_clinica",
+      "categoria": "google",
+      "nome": "Google Ads (Clínica Médica)",
+      "icone": "fa-solid fa-stethoscope",
+      "tag": "Gasto: R$ 729",
+      "descricao": "Conta aquecida no nicho médico (Dr. Pedro Macedo).",
+      "preco": "R$ 650,00",
+      "atributos": ["Faturamento OK", "Pagamento Automático", "Verificação Anunciante"],
+      "destaque": false
+    },
+    {
+      "id": "google_clinica2",
+      "categoria": "google",
+      "nome": "Google Ads (Clínica Médica)",
+      "icone": "fa-solid fa-stethoscope",
+      "tag": "Gasto: 1.5K",
+      "descricao": "Conta médica com maior histórico de gastos (Dr. Rainero).",
+      "preco": "R$ 700,00",
+      "atributos": ["Gasto: R$ 1.500", "Faturamento OK", "Verificação Anunciante"],
+      "destaque": true
+    },
+    {
+      "id": "google_sorveteria",
+      "categoria": "google",
+      "nome": "Google Ads (Sorveteria)",
+      "icone": "fa-solid fa-ice-cream",
+      "tag": "Gasto: 906",
+      "descricao": "Conta de negócios locais rodada com sucesso.",
+      "preco": "R$ 700,00",
+      "atributos": ["Nicho: Sorveteria", "Pagamento Manual", "Verificação Anunciante"],
+      "destaque": false
+    },
+    {
+      "id": "google_clinica3",
+      "categoria": "google",
+      "nome": "Google Ads (Clínica)",
+      "icone": "fa-solid fa-stethoscope",
+      "tag": "Gasto: 2.68K",
+      "descricao": "Conta médica premium, gastos altíssimos (Dra. Marília).",
+      "preco": "R$ 830,00",
+      "atributos": ["Gasto: R$ 2.680", "Pagamento Manual", "Verificação Anunciante"],
+      "destaque": true
+    },
+    {
+      "id": "tiktok_restabelecida",
+      "categoria": "tiktok",
+      "nome": "TikTok Ads",
+      "icone": "fa-brands fa-tiktok",
+      "tag": "Restabelecida 1x",
+      "descricao": "Conta blindada para você escalar no TikTok com total resistência.",
+      "preco": "R$ 840,00",
+      "atributos": ["Sem dívidas", "Segmenta qualquer país", "Disponível Brasil/Colômbia/França"],
       "destaque": true
     }
   ]
