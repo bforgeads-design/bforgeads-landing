@@ -230,6 +230,13 @@ ul {
     align-items: center;
 }
 
+.logo-img {
+    height: 70px; /* PC height */
+    width: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.4));
+}
+
 .logo-text {
     font-family: var(--font-heading);
     font-size: 1.5rem;
@@ -1301,6 +1308,10 @@ html, body {
     /* Mobile Header & Navigation Drawer */
     .navbar {
         padding: 14px 0;
+    }
+
+    .logo-img {
+        height: 55px; /* Mobile height */
     }
 
     .logo-text {
