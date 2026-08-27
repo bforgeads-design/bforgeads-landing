@@ -1697,3 +1697,76 @@ html, body {
         padding: 24px 18px;
     }
 }
+
+/* -------------------------------------
+ * MOBILE BOTTOM APP BAR (Mobile First)
+ * ------------------------------------- */
+.mobile-bottom-bar {
+    display: none; /* Hidden on desktop */
+}
+
+@media (max-width: 768px) {
+    /* Hide old floating whatsapp since we replaced it, just in case */
+    .floating-whatsapp {
+        display: none !important;
+    }
+
+    /* Padding bottom on body so content doesn't get hidden behind the bar */
+    body {
+        padding-bottom: 70px;
+    }
+
+    .mobile-bottom-bar {
+        display: flex;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: rgba(9, 10, 16, 0.95);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 9999;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 0;
+        box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .bottom-bar-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #94a3b8;
+        text-decoration: none;
+        font-size: 0.75rem;
+        gap: 6px;
+        transition: all 0.3s ease;
+        flex: 1;
+    }
+
+    .bottom-bar-item i {
+        font-size: 1.3rem;
+    }
+
+    .bottom-bar-item.active {
+        color: var(--neon-purple);
+    }
+    
+    .bottom-bar-item.highlight-catalog {
+        color: #fff;
+    }
+    
+    .bottom-bar-item.highlight-catalog i {
+        background: linear-gradient(135deg, var(--neon-purple), var(--secondary-color));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 1.5rem;
+        filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.4));
+    }
+
+    .bottom-bar-item.whatsapp-btn i {
+        color: #25D366;
+        font-size: 1.5rem;
+    }
+}
