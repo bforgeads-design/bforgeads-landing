@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let allProducts = [];
 
     // Busca os dados do "Hub" (data.json)
-    fetch('data.json')
+    fetch('data.json?v=' + new Date().getTime())
         .then(response => {
             if (!response.ok) throw new Error('Erro ao carregar o catálogo');
             return response.json();
