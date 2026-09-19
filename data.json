@@ -9,10 +9,6 @@
       "nome": "BMs para Disparos"
     },
     {
-      "id": "bforge",
-      "nome": "BM BFORGE 🦅"
-    },
-    {
       "id": "perfis",
       "nome": "Perfis e Páginas"
     },
@@ -23,6 +19,10 @@
     {
       "id": "tiktok",
       "nome": "TikTok Ads"
+    },
+    {
+      "id": "bms_gastos",
+      "nome": "BMs com Gastos"
     }
   ],
   "produtos": [
@@ -283,12 +283,12 @@
     },
     {
       "id": "bm_100k_disparos",
-      "categoria": "disparos",
+      "categoria": "bms_gastos",
       "nome": "BM 100K DISPAROS",
       "icone": "fa-solid fa-network-wired",
       "tag": "Enterprise",
       "descricao": "Escala global em disparos de WhatsApp.",
-      "preco": "R$ 23.000,00",
+      "preco": "R$ 5.800,00",
       "atributos": [
         "🔥 100.000 disparos/dia",
         "Estrutura volume contínuo",
@@ -298,7 +298,7 @@
     },
     {
       "id": "bforge_169k",
-      "categoria": "bforge",
+      "categoria": "bms_gastos",
       "nome": "BM BFORGE 16.9K",
       "icone": "fa-solid fa-trophy",
       "tag": "2025 - Multi Rev",
@@ -313,7 +313,7 @@
     },
     {
       "id": "bforge_73k",
-      "categoria": "bforge",
+      "categoria": "bms_gastos",
       "nome": "BM BFORGE 7.3K",
       "icone": "fa-solid fa-dragon",
       "tag": "2022 - Goncalves SA Restaurante",
@@ -328,7 +328,7 @@
     },
     {
       "id": "bforge_134k",
-      "categoria": "bforge",
+      "categoria": "bms_gastos",
       "nome": "BM BFORGE 134.5K",
       "icone": "fa-solid fa-diamond",
       "tag": "2020 - Maria De Lourdes",
@@ -398,21 +398,6 @@
         "Limite inicial: $1300",
         "+4 contas de $1300",
         "Qualidade Premium ⭐"
-      ],
-      "destaque": true
-    },
-    {
-      "id": "bm_250_disparos",
-      "categoria": "disparos",
-      "nome": "BM 250 DISPAROS - BFORGE",
-      "icone": "fa-brands fa-whatsapp",
-      "tag": "Verificada",
-      "descricao": "BM configurada para 250 disparos/dia.",
-      "preco": "R$ 2.800,00",
-      "atributos": [
-        "250 disparos dia",
-        "✅ Verificada",
-        "Qualidade Alta"
       ],
       "destaque": true
     }
