@@ -243,7 +243,7 @@
       "icone": "fa-brands fa-whatsapp",
       "tag": "Sem Template",
       "descricao": "Para disparos massivos via WhatsApp.",
-      "preco": "R$ 400,00",
+      "preco": "R$ 390,00",
       "atributos": [
         "🚀 2.000 disparos/dia",
         "Sem template aprovado",
@@ -273,7 +273,7 @@
       "icone": "fa-solid fa-server",
       "tag": "Infra Massiva",
       "descricao": "Solução definitiva para alto volume.",
-      "preco": "R$ 4.040,00",
+      "preco": "R$ 9.900,00",
       "atributos": [
         "🔥 10.000 disparos/dia",
         "Número BR conectado",
@@ -303,7 +303,7 @@
       "icone": "fa-solid fa-trophy",
       "tag": "2025 - Multi Rev",
       "descricao": "Estrutura relíquia que já rodou White.",
-      "preco": "R$ 2.300,00",
+      "preco": "R$ 2.700,00",
       "atributos": [
         "Gastos Totais: R$ 16.944,58",
         "Ciclo Total: R$ 503,00",
@@ -318,7 +318,7 @@
       "icone": "fa-solid fa-dragon",
       "tag": "2022 - Goncalves SA Restaurante",
       "descricao": "Conta de alto volume de ciclo.",
-      "preco": "R$ 2.800,00",
+      "preco": "R$ 3.200,00",
       "atributos": [
         "Gastos: R$ 7.347,28",
         "Ciclo: R$ 784,00",
@@ -333,7 +333,7 @@
       "icone": "fa-solid fa-diamond",
       "tag": "2020 - Maria De Lourdes",
       "descricao": "Conta premium com limites de extensão ilimitados.",
-      "preco": "R$ 7.800,00",
+      "preco": "R$ 8.000,00",
       "atributos": [
         "Gastos: R$ 134.574,35",
         "Ciclo: R$ 5.712,00",
@@ -400,6 +400,66 @@
         "Qualidade Premium ⭐"
       ],
       "destaque": true
+    },
+    {
+      "id": "perfil_real_br_novo",
+      "categoria": "perfis",
+      "nome": "Perfil Real BR",
+      "icone": "fa-solid fa-user-check",
+      "tag": "Documento Real",
+      "descricao": "Perfil antigo acompanhado de documento real, pronto para anunciar.",
+      "preco": "R$ 179,90",
+      "atributos": [
+        "Não pedem código no WhatsApp",
+        "Perfis antigos e reais",
+        "Acompanham documento real"
+      ],
+      "destaque": false
+    },
+    {
+      "id": "bm_250_disparos_150",
+      "categoria": "disparos",
+      "nome": "BM 250 DISPAROS",
+      "icone": "fa-brands fa-whatsapp",
+      "tag": "Perfil Incluso",
+      "descricao": "Estrutura pronta para disparos com perfil incluso.",
+      "preco": "R$ 150,00",
+      "atributos": [
+        "Limite: 250 Disparos por dia",
+        "Sem template aprovado",
+        "Entrega via Link ou Ads Power"
+      ],
+      "destaque": false
+    },
+    {
+      "id": "tiktok_restabelecida",
+      "categoria": "tiktok",
+      "nome": "TIKTOK ADS RESTABELECIDA 1x",
+      "icone": "fa-brands fa-tiktok",
+      "tag": "Reestabelecida",
+      "descricao": "Conta de TikTok Ads pronta para rodar conversão.",
+      "preco": "R$ 840,00",
+      "atributos": [
+        "Gastos: $5 a $25 dólares",
+        "Pronta para rodar Conversão",
+        "Segmenta qualquer país"
+      ],
+      "destaque": true
+    },
+    {
+      "id": "bforge_23k",
+      "categoria": "bms_gastos",
+      "nome": "BM BFORGE 2.3K",
+      "icone": "fa-solid fa-chart-line",
+      "tag": "2020 - MARAVILHAS DA TERRA",
+      "descricao": "Conta antiga e validada com histórico de gastos.",
+      "preco": "R$ 2.400,00",
+      "atributos": [
+        "Gastos Totais: R$ 2.308,71",
+        "Criada em: 26 de maio de 2020",
+        "Rodou White (5 Contas)"
+      ],
+      "destaque": false
     }
   ]
 }
