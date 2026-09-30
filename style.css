@@ -231,10 +231,11 @@ ul {
 }
 
 .logo-img {
-    height: 70px; /* PC height */
+    height: 100px; /* PC height */
     width: auto;
     object-fit: contain;
-    filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.4));
+    mix-blend-mode: screen; /* Remove fundo preto da imagem */
+    /* Removido drop-shadow para tirar a borda/quadrado */
 }
 
 .logo-text {
@@ -1311,7 +1312,7 @@ html, body {
     }
 
     .logo-img {
-        height: 55px; /* Mobile height */
+        height: 75px; /* Mobile height */
     }
 
     .logo-text {
